@@ -137,7 +137,7 @@ export default class Call {
 
     /**
      * Local Contact.
-     * TODO: Provide example
+     * @example 'sip:user@192.168.1.100:5060'
      * @returns {String}
      */
     getLocalContact() {
@@ -146,7 +146,7 @@ export default class Call {
 
     /**
      * Local URI.
-     * TODO: Provide example
+     * @example '"User Name" <sip:user@domain.com>'
      * @returns {String}
      */
     getLocalUri() {
@@ -155,7 +155,7 @@ export default class Call {
 
     /**
      * Remote contact.
-     * TODO: Provide example
+     * @example 'sip:remote@192.168.1.50:5060'
      * @returns {String}
      */
     getRemoteContact() {
@@ -164,7 +164,7 @@ export default class Call {
 
     /**
      * Remote URI.
-     * TODO: Provide example
+     * @example '"Remote User" <sip:remote@domain.com>'
      * @returns {String}
      */
     getRemoteUri() {
